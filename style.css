@@ -102,19 +102,6 @@ body{
       
      }
   }
-  /* @media screen and (max-width: 1460px:min-wi) {
-    .keyboard-row:nth-child(9) {
-        margin-left: 560px; 
-    
-    
-    }
-    .keyboard-row:nth-child(8) {
-       margin-left: 580px;   
-    }
-    .keyboard-row:nth-child(7) {
-        margin-left: 560px; 
-    
-  } */
    @media screen and (min-width: 1460px) {
     .keyboard-row:nth-child(9) {
         margin-left: 560px; 
