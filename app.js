@@ -2,7 +2,7 @@
 var noofgusses=6; //height
 var widthletter=5;//width
 var row=0;//row row
-var col=0;//col /tile
+var col=0; //tile
 var gameover=false;
 
   
@@ -79,7 +79,7 @@ function processkey(e){
     // processinput(e);
     if(e=="Backspace"){
         deletele(e);
-        // console.log('guessrows',guesslist);
+       
         return ;
     }
     if(e=="Enter"){
@@ -115,11 +115,7 @@ function check(){
     flipTile(guess);
      if(wordle==guess){
         showmessage('Magnificent');
-        // document.getElementById("#tile").createElement("p");
-        // document.querySelector("#title p").innerHTML="Press Key to Restart";
-        // document.addEventListener("keypress",()=>{
-        //     window.onload();
-        // })
+       
         gameover=true;
 
         return;
@@ -127,11 +123,7 @@ function check(){
         if(row>=5){
             gameover=false;
             showmessage('Game over');
-        //     document.getElementById("#tile").createElement("p");
-        // document.querySelector("#title p").innerHTML="Press Key to Restart";
-        // document.addEventListener("keypress",()=>{
-        //     window.onload();
-        // })
+       
             return ;
         }
         if(row<5){
