@@ -102,9 +102,9 @@ body{
       
      }
   }
-   @media screen and (min-width: 1460px) {
+  @media screen and (min-width: 1460px) {
     .keyboard-row:nth-child(9) {
-        margin-left: 560px; 
+        margin-left: 550px; 
     
     
     }
@@ -112,9 +112,11 @@ body{
        margin-left: 580px;   
     }
     .keyboard-row:nth-child(7) {
-        margin-left: 560px;   
+        margin-left: 540px;   
+        background-color: aliceblue;
      }
   } 
+  
   
 .grey-overlay {
     border: 2px solid black;
