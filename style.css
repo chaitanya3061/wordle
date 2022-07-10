@@ -102,18 +102,17 @@ body{
       
      }
   }
-  @media screen and (min-width: 1460px) {
+    @media screen and (min-width: 1460px) {
     .keyboard-row:nth-child(9) {
-        margin-left: 550px; 
+        margin-left: 580px; 
     
     
     }
     .keyboard-row:nth-child(8) {
-       margin-left: 580px;   
+       margin-left: 600px;   
     }
     .keyboard-row:nth-child(7) {
-        margin-left: 540px;   
-        background-color: aliceblue;
+        margin-left: 580px; 
      }
   } 
   
