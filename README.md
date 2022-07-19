@@ -1,7 +1,7 @@
 # wordle
 
 
-Wordle is a word guessing game. Each day you have to guess a new word. You have 6 attempts and each attempt you will get some hint.
+Wordle is a word guessing game. Each day you have to guess a new word. You have 6 attempts and each attempt you will get an hint.
 
 1)You have to guess the Word in six step or less and the word should be of five lettered.<br />
 2)Every word you enter must be in the word list. There are more than 5000 words in my word.js file and it generates random word for every game and that is exported to my main file.<br />
